@@ -4,35 +4,23 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Netlify-Practice</title>
     <link rel="stylesheet" href="main.css" />
   </head>
   <body>
-    <header>
-      <h1>All is Well</h1>
-    </header>
-    <section class="container">
-      <form id="my-form" netlify>
-        <h1>Add User</h1>
-        <div class="msg"></div>
-        <div>
-          <label for="name">Name:</label>
-          <input type="text" id="name" />
-        </div>
-        <div>
-          <label for="email">Email:</label>
-          <input type="email" id="email" />
-        </div>
-        <input type="submit" value="submit" class="btn" />
-      </form>
-      <ul id="users"></ul>
-      <!-- 
-      <ul class="items">
-        <li class="item">Item 1</li>
-        <li class="item">Item 2</li>
-        <li class="item">Item 3</li>
-      </ul> -->
-    </section>
-    <script src="program.js"></script>
+    <form name="contact" netlify>
+      <p>
+        <input placeholder="Name" type="text" name="name" />
+      </p>
+      <p>
+        <input placeholder="Email" type="email" name="email" />
+      </p>
+      <p>
+        <input placeholder="comment here" type="textarea" />
+      </p>
+      <p>
+        <button type="submit">Send</button>
+      </p>
+    </form>
   </body>
 </html>
