@@ -1,0 +1,47 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+  margin: auto;
+  padding: 10px;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+label {
+  margin: 10px 0px;
+  display: block;
+}
+input {
+  display: block;
+  padding: 7px;
+  width: 100%;
+  margin: auto;
+  border: 1px solid black;
+}
+.btn {
+  margin-top: 10px;
+}
+ul {
+  margin-top: 10px;
+  list-style: none;
+  color: whitesmoke;
+}
+.item {
+  background: black;
+  padding: 5px;
+  margin: 3px;
+}
+
+.error {
+  background: red;
+  color: white;
+}
